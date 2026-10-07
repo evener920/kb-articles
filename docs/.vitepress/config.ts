@@ -28,6 +28,7 @@ export default defineConfig({
     logo: '/favicon.svg',
     nav: [
       { text: '首页', link: '/' },
+      { text: '标签', link: '/tags/' },
       { text: 'GitHub', link: 'https://github.com/evener920/kb-articles' },
     ],
     sidebar,

@@ -17,3 +17,98 @@
   border-radius: 6px;
   border: 1px solid var(--vp-c-divider);
 }
+
+/* 首页分类卡片网格（文人书斋风：宣纸底 + 松墨绿描边 + 朱砂点缀） */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 12px 0 8px;
+}
+.cat-card {
+  display: block;
+  padding: 18px 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-left: 3px solid var(--vp-c-brand-2);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft, #faf8f3);
+  text-decoration: none !important;
+  color: var(--vp-c-text-1);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+.cat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(47, 93, 80, 0.12);
+  border-left-color: var(--vp-c-accent);
+}
+.cat-name {
+  font-family: var(--vp-font-family-base);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+.cat-count {
+  margin-top: 6px;
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+}
+
+/* 标签云 / 标签药丸 */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0;
+}
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border: 1px solid var(--vp-c-brand-2);
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft, #faf8f3);
+  color: var(--vp-c-brand-1);
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.tag-pill:hover {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+}
+.tag-num {
+  font-size: 0.72rem;
+  color: var(--vp-c-accent);
+}
+.tag-pill:hover .tag-num {
+  color: #ffe;
+}
+
+/* 文章页底部标签 */
+.doc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--vp-c-divider);
+}
+.doc-tags-label {
+  font-family: var(--vp-font-family-base);
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+.doc-tag {
+  padding: 3px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  color: var(--vp-c-brand-1);
+  text-decoration: none !important;
+  font-size: 0.85rem;
+}
+.doc-tag:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-bg-soft, #faf8f3);
+}
