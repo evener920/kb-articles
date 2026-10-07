@@ -2,6 +2,7 @@
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "kb-articles",
 	"main": "./src/index.ts",
+	"account_id": "82129ffe005dfd5010505adf73de06cb",
 	"compatibility_date": "2026-07-10",
 	"assets": {
 		"directory": "./docs/.vitepress/dist",
