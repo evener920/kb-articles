@@ -1,0 +1,22 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "kb-articles",
+	"main": "./src/index.ts",
+	"compatibility_date": "2026-07-10",
+	"assets": {
+		"directory": "./docs/.vitepress/dist",
+		"binding": "ASSETS",
+		"html_handling": "auto-trailing-slash",
+		"not_found_handling": "404-page"
+	},
+	"routes": [
+		{
+			"pattern": "articles.201573.xyz",
+			"custom_domain": true
+		}
+	],
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1
+	}
+}

@@ -1,0 +1,19 @@
+/* 文人书斋风：衬线中文 + 舒适阅读宽度 */
+:root {
+  --vp-font-family-base: "Noto Serif SC", "Songti SC", "Source Han Serif SC",
+    "STSong", "SimSun", serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --vp-c-brand-1: #2f5d50;
+  --vp-c-brand-2: #3c7364;
+  --vp-c-brand-3: #4f8a79;
+  --vp-c-accent: #9a3412;
+}
+
+.vp-doc {
+  max-width: 48rem;
+}
+
+.vp-doc img {
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-divider);
+}
