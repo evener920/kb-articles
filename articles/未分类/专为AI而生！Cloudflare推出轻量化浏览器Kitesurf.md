@@ -62,7 +62,7 @@ inspect ：https// www.baidu.com
 }
 ```
 **2. 通过Restful API调用**
-另一种使用 Kitesurf 的方式是通过Browser Run 的快速操作</b>。同样，只需在快速操作端点中添加`browser=kitesurf`即可生效。例如，如果你需要从维基百科快速截取屏幕截图，这样操作完全可行：
+另一种使用 Kitesurf 的方式是通过Browser Run 的快速操作。同样，只需在快速操作端点中添加`browser=kitesurf`即可生效。例如，如果你需要从维基百科快速截取屏幕截图，这样操作完全可行：
 ```
 curl -X POST 'https://api.cloudflare.com/client/v4/accounts/<accountId>/browser-run/screenshot?browser=kitesurf' \
   -H 'Authorization: Bearer <apiToken>' \
