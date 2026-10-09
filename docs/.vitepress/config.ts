@@ -14,6 +14,9 @@ export default defineConfig({
   outDir: './.vitepress/dist',
   cleanUrls: true,
   lastUpdated: true,
+  // 【2026-10-09】自动同步的内容站：文章可能含任意外链（含失效/localhost 链接），
+  // 不能因单篇死链就让整站构建失败。关闭死链致命检查。
+  ignoreDeadLinks: true,
   markdown: {
     theme: {
       light: 'github-light',
