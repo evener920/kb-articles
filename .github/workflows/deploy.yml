@@ -3,6 +3,12 @@ name: Deploy kb-articles site
 on:
   push:
     branches: [main]
+    # 【2026-10-09】图片是"一篇图一张提交"，Notion 归档一篇 20 图的文章会产生 20 次 push。
+    # 若每次 image 提交都重建站点，CI 会被这些中间态提交刷爆（且每次都被 cancel-in-progress 顶掉）。
+    # 图片本身由 VitePress 在构建时按 md 引用打包，**随最后一次正文提交**一起生效，
+    # 所以这里忽略纯 assets 提交即可，最终结果不变。
+    paths-ignore:
+      - 'articles/**/assets/**'
   workflow_dispatch:
 
 permissions:
