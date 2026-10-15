@@ -104,23 +104,31 @@ for (const cat of cats) {
 
     let title = origTitle;
     let tags = [];
+    let date = '';
     const fm = raw.match(/^---\n([\s\S]*?)\n---/);
     if (fm) {
       const t = fm[1].match(/^title:\s*"?([^"\n]+)"?/m);
       if (t) title = t[1].trim().replace(/^["']|["']$/g, '');
       tags = parseTags(fm[1]);
+      const d = fm[1].match(/^date:\s*(\S+)/m);
+      if (d) date = d[1].trim();
     }
     const link = `/articles/${catSlug}/${slug}`;
-    items.push({ text: title, link, tags });
+    items.push({ text: title, link, tags, date });
 
     for (const tag of tags) {
       const s = tagSlug(tag);
       if (!tagMap.has(s)) tagMap.set(s, { name: tag, articles: [] });
-      tagMap.get(s).articles.push({ text: title, link, tag: s });
+      tagMap.get(s).articles.push({ text: title, link, tag: s, date });
     }
   }
 
-  items.sort((a, b) => a.text.localeCompare(b, 'zh'));
+  // 【2026-10-15】按发布时间倒序（最新在前）；缺 date 的沉底，再以标题兜底排序
+  items.sort(
+    (a, b) =>
+      (b.date || '0000-00-00').localeCompare(a.date || '0000-00-00') ||
+      a.text.localeCompare(b.text, 'zh'),
+  );
   if (items.length) {
     groups.push({ text: cat.name, slug: catSlug, items, collapsed: false });
     total += items.length;
@@ -168,6 +176,11 @@ if (tagEntries.length) {
   writeFileSync(resolve(tagsDir, 'index.md'), tIdx, 'utf8');
 
   for (const [s, v] of tagEntries) {
+    v.articles.sort(
+      (a, b) =>
+        (b.date || '0000-00-00').localeCompare(a.date || '0000-00-00') ||
+        a.text.localeCompare(b.text, 'zh'),
+    );
     let page = `# 标签：${v.name}\n\n`;
     page += `> 共 ${v.articles.length} 篇\n\n`;
     for (const a of v.articles) page += `- [${a.text}](${a.link})\n`;
