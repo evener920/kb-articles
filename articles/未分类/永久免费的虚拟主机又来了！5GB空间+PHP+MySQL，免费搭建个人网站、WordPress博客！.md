@@ -195,7 +195,7 @@ InfinityFree 是一个非常适合新手入门的免费虚拟主机平台。
 🚀 开始自己的建站之路
 如果你一直想拥有一个自己的博客，但是又觉得服务器太复杂、成本太高，那么可以从这个免费虚拟主机开始尝试。🔥
 ## 🖼️相关截图
-![](assets/永久免费的虚拟主机又来了！5GB空间+PHP+MySQL，免费搭建个人网站、WordPress博客！-1.png)
+![](assets/a594a2c7f40b4.png)
 ```javascript
 视频教程地址：https://aixmb.com/1140.html
 ```

@@ -14,7 +14,7 @@ notion: "https://www.notion.so/3f6feb00ed72812cad3ffed541230429"
 刚刚！！
 我GitHub上的星标数🌟破10万+了。截至10月11号，64个自己创建的仓库加起来是101,808颗星，在gitstar的全球用户榜上排第79名左右。
 说起来我在GitHub上认真发开源项目，基本都是今年的事，真正的起点是4月初开源女娲.skill，在那之前我手上还没有一个仓库的star超过500。大半年走到这个小里程碑，挺意外的，也很感谢一直在用、在提issue的各位。
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-1.jpg)
+![](assets/a2a25dbb88a0e.jpg)
 这篇就聊两件事：这10万颗星大概是怎么来的，以及里面有哪几个作品，是我觉得你装上就能用起来的。
 你也可以不读这篇文章，直接把我的GitHub主页 https://github.com/alchaincyf/ 丢给你的任何agent，让它结合你的工作习惯的特点，按你的需求推荐并安装，它自己就能搞定。
 ### 一、10万颗星是怎么来的
@@ -22,7 +22,7 @@ notion: "https://www.notion.so/3f6feb00ed72812cad3ffed541230429"
 星主要集中在两个仓库：女娲3.4万、Huashu Design近2.5万，加起来占了快六成。用女娲蒸馏出来的那些人物skill也有不少星。按类别看，35个skill类仓库一共8.8万颗星，11本橙皮书的配套仓库一万出头。
 还有个数我自己挺喜欢：女娲.skill这个星最多的仓库，文本几乎全是markdown，按文件体量算，脚本代码只占3%左右（md背后的自然语言才是这个时代最主要的编程语言...
 ### 二、7个我自己很满意的作品
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-2.jpg)
+![](assets/a90fb04c17d03.jpg)
 #### 1. 女娲.skill：把一个人的思考方式，变成可调用的skill
 GitHub：https://github.com/alchaincyf/nuwa-skill （3.4万 star）
 你给它一个名字，它自动走完调研、提炼、验证，产出一个这个人的视角skill。它提炼五层东西：怎么说话（表达DNA）、怎么想（心智模型）、怎么判断（决策启发式）、什么不做（反模式和价值观底线），以及知道自己的局限在哪。
@@ -34,7 +34,7 @@ GitHub：https://github.com/alchaincyf/nuwa-skill （3.4万 star）
 每个蒸馏出来的skill都会标清楚它做不到什么：蒸馏不了直觉、只是截止到调研时间的快照、公开表达也不等于真实想法。乔布斯、芒格、费曼、纳瓦尔这些人物skill都是用它造出来的，Claude Code、Codex、Cursor、OpenClaw、Hermes Agent这些支持Agent Skills协议的agent都能跑。
 可以这样提需求：「蒸馏一个保罗·格雷厄姆」，造完之后直接用：「用芒格的视角帮我分析这个投资决策」。
 相关文章：[开源「女娲.skill」，你现在可以去蒸馏任何人！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247489388&idx=1&sn=ca5fdf8df682927d07804d246556e0e5&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-3.jpg)
+![](assets/aa60ec96e1530.jpg)
 #### 2. Huashu Design：把想法变成能交付的设计
 GitHub：https://github.com/alchaincyf/huashu-design （近2.5万 star）
 它是一个在agent里用HTML做设计的skill，能出四类东西：可点击的App/Web交互原型（单文件HTML，带真iPhone外框）、演讲幻灯片（浏览器里演的HTML deck，也能导成文本框可编辑的PPTX）、时间轴动画（导出MP4和GIF，可以带BGM）、信息图（能导PDF、PNG、SVG）。
@@ -48,7 +48,7 @@ GitHub：https://github.com/alchaincyf/huashu-design （近2.5万 star）
 相关文章： [我逆向了Claude Design！免费开源！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247489770&idx=1&sn=80ba801b80e8343bfbc0553d8fef8170&scene=21#wechat_redirect)
 
 [开源两个月16k+ star！我把Huashu-Design推翻重写了](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247490678&idx=1&sn=6515542f27d0d170476f9ce7b2e4e613&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-4.jpg)
+![](assets/a33dca2995eb3.jpg)
 #### 3. 达尔文.skill：让skill越用越好
 GitHub：https://github.com/alchaincyf/darwin-skill （6千多 star）
 女娲负责造skill，达尔文负责迭代和优化skill。思路来自Karpathy的autoresearch：评估、改进、测试，然后保留或回滚。
@@ -62,7 +62,7 @@ GitHub：https://github.com/alchaincyf/darwin-skill （6千多 star）
 可以这样提需求：「用达尔文检查这个skill，找出问题、改进并测试，验证有效再保留。」
 相关文章： [达尔文.skill正式发布，一个无限进化的skill系统！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247489529&idx=1&sn=e6aa440a0e83c58a734bd56bb92c7d76&scene=21#wechat_redirect)
 [达尔文.skill 2.0正式开源发布！让你的所有skill左脚踩右脚实现自我进化](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247490467&idx=1&sn=469689a45deb1a3131924ee69c8d21ee&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-5.jpg)
+![](assets/af704a2446d7d.jpg)
 #### 4. huashu-chrome：让agent操作你已登录的Chrome
 GitHub：https://github.com/alchaincyf/huashu-chrome （270多 star）
 接下来这两个star不多，但我自己几乎天天在用。
@@ -75,7 +75,7 @@ huashu-chrome让任何agent直接操控你日常用的那个Chrome，带着你�
 5、验证码、扫码、付款这些交还给你；所有活都在后台标签页里干，不抢你的屏幕，多个agent同时干活也互不抢页。
 可以这样提需求：「打开我已登录的网页，找到需要的信息，整理成一份清单。」
 相关文章：[Huashu-mac-use开源！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247492093&idx=1&sn=b1192cca92fe3fc6252c66723ed42970&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-6.jpg)
+![](assets/a852fe99a5c52.jpg)
 #### 5. huashu-mac-use：让agent操作Mac上的原生应用
 GitHub：https://github.com/alchaincyf/huashu-mac-use （300 star）
 Mac上大部分原生app没有API，agent够不着，huashu-mac-use就是让agent去操作这些app的。它和huashu-chrome是一对，浏览器的事交给chrome，桌面的事归它。
@@ -87,7 +87,7 @@ Mac上大部分原生app没有API，agent够不着，huashu-mac-use就是让agen
 仓库里有个案例：一个coding agent照着4张照片，在Blender里建出一艘十万吨级的邮轮，建模、材质、灯光、运镜一共33分钟，全程没人碰鼠标。
 可以这样提需求：「用huashu-mac-use操作这个Mac应用，完成任务后截图核对结果。」
 相关文章：[正式开源huashu-mac-use，让任何agent获得接近GPT-6的Computer use能力！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247492082&idx=1&sn=8bd0094afaec0208069ad1c50a6cc12c&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-7.jpg)
+![](assets/a39a48f24fd97.jpg)
 #### 6. FanBox：Coding Agent的驾驶舱
 GitHub：https://github.com/alchaincyf/fanbox （1千多 star）
 FanBox把找文件、开终端跑agent、看产出这条链路收进一个窗口：左边文件，右边或下边终端，中间原地预览。本地运行、零配置，不做云、不做账号，macOS免费开源。
@@ -99,7 +99,7 @@ FanBox把找文件、开终端跑agent、看产出这条链路收进一个窗口
 2.0还加了两个能力：可以直接通过微信操控电脑里的Claude Code和Codex；Mac合盖不待机，agent还在跑的时候你也能合上电脑走人。
 可以这样用：「打开项目，一边让agent干活，一边查看文件和本轮改动。」
 相关文章：[FanBox 2.0发布！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247490884&idx=1&sn=b316f6b2a3e29ae24d18d4c44e3dd457&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-8.jpg)
+![](assets/a3a9556e9e5cd.jpg)
 #### 7. huashu-art-motion：用代码让画动起来
 GitHub：https://github.com/alchaincyf/huashu-art-motion （3千多 star）
 这是最新的一个，刚开源几天，让你的coding agent把艺术风格写成会动的画。里面有35种艺术风格（每种一张风格卡加一段对应的场景代码）、9种解说动画语法（解说视频里常用的几类画面讲法，大部分附了示范片和可以直接改参数的片段），还有17个笔刷、渲染、镜头、图表、排版之类的绘画动画库。
@@ -114,7 +114,7 @@ GitHub：https://github.com/alchaincyf/huashu-art-motion （3千多 star）
 可以这样提需求：「用huashu-art-motion，把这个观点做成一段有艺术感的解说动画。」
 相关文章： [huashu-art-motion发布！可能是最有审美的动画skill。](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247492344&idx=1&sn=f2b9cb9c272bfb9c8ec163ab0b279b49&scene=21#wechat_redirect)
 [第一批用上huashu-art-motion的人，已经开始拿到结果了！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA%3D%3D&mid=2247492390&idx=1&sn=f1c60eb4c6b3ca78100d0ee13eba57a6&scene=21#wechat_redirect)
-![](assets/刚刚！他的GitHub星标破10万+了，凭什么？-9.jpg)
+![](assets/a565a170ff7ac.jpg)
 ---
 ### 最后聊几句
 4月女娲刚火那几天，我在即刻上写过一句：「虽然GitHub开源项目的star也干不了啥～但至少实现了对一些指标的祛魅」。现在过了10万，我还是这个看法，star不等于有多少人在用（女娲两万星的时候，我估计它的安装量早就过20万了）。

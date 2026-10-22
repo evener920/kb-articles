@@ -11,10 +11,10 @@ notion: "https://www.notion.so/3fafeb00ed7281c0b2cff0a17956fb2e"
 # 德国出版业AI转型
 > 💡 备注属性未写入，可能是备注属性名称或者类型被修改了，建议将字段类型设置为 rich_text，可以在小程序-操作-修改文章数据库页面进行调整
 > 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=MzU1MzE1OTc5MQ==&mid=2247496708&idx=1&sn=9bfa443dfadc568b3a6967d80c5a36e1&chksm=fadeeeb5b21bce7024cb897b4b5743a5460ec9666e28581fe97212e31f7fc0a9b74b12bbb66d#rd](https://mp.weixin.qq.com/s?__biz=MzU1MzE1OTc5MQ%3D%3D&mid=2247496708&idx=1&sn=9bfa443dfadc568b3a6967d80c5a36e1&chksm=fadeeeb5b21bce7024cb897b4b5743a5460ec9666e28581fe97212e31f7fc0a9b74b12bbb66d#rd)
-![](assets/德国出版业AI转型-1.jpg)
-![](assets/德国出版业AI转型-2.jpg)
-![](assets/德国出版业AI转型-3.jpg)
-![](assets/德国出版业AI转型-4.jpg)
+![](assets/a0a0c545664af.jpg)
+![](assets/a6e0f38076a36.jpg)
+![](assets/a8933c7a20714.jpg)
+![](assets/a2da5b8287529.jpg)
 **德国出版业AI转型：把“慢”变成武器，把“规则”变成护城河**
 2026年，法兰克福书展。德国书业协会主席古戈尔茨站在台上，说了一句话：“我们等待的是对我们工作的尊重。”
 台下120家出版社签署了“法兰克福呼吁”，要求欧盟和德国政府管住AI公司，让他们公开训练数据、支付合理报酬。

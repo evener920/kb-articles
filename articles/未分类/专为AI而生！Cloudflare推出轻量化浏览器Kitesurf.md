@@ -11,7 +11,7 @@ notion: "https://www.notion.so/3ddfeb00ed728172915dd08bf13f3ee7"
 # 专为AI而生！Cloudflare推出轻量化浏览器Kitesurf
 > 💡 备注属性未写入，可能是备注属性名称或者类型被修改了，建议将字段类型设置为 rich_text，可以在小程序-操作-修改文章数据库页面进行调整
 > 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=Mzk1Nzg5MzY4Mw==&mid=2247486191&idx=1&sn=bab8df1489b0640005ccd441c2315c9e&chksm=c2afa85768ea72ae40eace8571a4f56337d7eefa653a5d0273098ed4b8a306dc54cbd9e4b777#rd](https://mp.weixin.qq.com/s?__biz=Mzk1Nzg5MzY4Mw%3D%3D&mid=2247486191&idx=1&sn=bab8df1489b0640005ccd441c2315c9e&chksm=c2afa85768ea72ae40eace8571a4f56337d7eefa653a5d0273098ed4b8a306dc54cbd9e4b777#rd)
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-1.png)
+![](assets/a0b489d5e3309.png)
 ### 一、传统浏览器，根本不适合AI代理
 现在很多AI智能体、网页自动化工具，都需要浏览器访问网页。 但我们常用的Chromium是给人类设计的，自带大量冗余功能：标签页、插件、高清渲染、动画优化。
 AI根本用不上这些，反而会带来两大难题：
@@ -26,19 +26,19 @@ Kitesurf完全运行在Cloudflare Workers的V8隔离环境，底层基于Rust+We
 ✅ 尽可能无状态，任务结束直接销毁，应对突发批量任务更灵活 
 ✅ 内置安全沙箱，统一管控网络请求，拦截风险访问
 目前可以通过访问：https://kitesurf.cloudflare.app/ 进行体验，包括浏览网页，网页截图，网页渲染为PDF, HTML 样式网页
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-2.png)
+![](assets/a4b07278ae5cf.png)
 inspect ：https// www.baidu.com
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-3.png)
+![](assets/ac4873afebe17.png)
 ### 三、性能碾压Chromium，资源最高省7倍
 官方实测对比数据非常亮眼：
 - 网页截图：CPU占用减少3.1倍，内存仅57.8MiB（Chromium271MiB）
 - 网页文本提取：CPU减少3.8倍，内存低至39.4MiB，差距达7倍
 唯一短板是页面渲染耗时略长1.7~1.8倍，但对AI爬虫、内容提取、截图任务完全不影响，还能大幅降低服务器开销。
 目前Kitesurf已通过21.5万+网页标准测试，主流网站、前端框架都能正常解析，甚至可以运行经典游戏Doom。
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-4.png)
+![](assets/a960d5f9db2e2.png)
 ### 四、三层核心架构，兼容现有自动化工具
 整套系统分为三大模块，依托Workers RPC通信：
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-5.jpg)
+![](assets/acd7e93b6a504.jpg)
 1. Engine：对外入口，兼容CDP协议，Puppeteer、Playwright开箱即用，无需改代码
 1. PageScript：解析HTML、CSS、JS，内置Boa引擎处理eval代码
 1. PageRenderer：生成截图、PDF，用完即销毁，支持重试
@@ -73,7 +73,7 @@ curl -X POST 'https://api.cloudflare.com/client/v4/accounts/<accountId>/browser-
   --output "screenshot.png"
 ```
 可以调用的API 接口
-![](assets/专为AI而生！Cloudflare推出轻量化浏览器Kitesurf-6.png)
+![](assets/a4d4053749e35.png)
 ### 五、哪些场景优先选Kitesurf？
 适合：
 - AI智能体网页信息抓取、批量网页摘要提取

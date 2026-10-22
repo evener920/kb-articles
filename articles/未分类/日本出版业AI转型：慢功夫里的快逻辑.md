@@ -11,12 +11,12 @@ notion: "https://www.notion.so/3fbfeb00ed7281958816f4cbd328434b"
 # 日本出版业AI转型：慢功夫里的快逻辑
 > 💡 备注属性未写入，可能是备注属性名称或者类型被修改了，建议将字段类型设置为 rich_text，可以在小程序-操作-修改文章数据库页面进行调整
 > 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=MzU1MzE1OTc5MQ==&mid=2247496720&idx=1&sn=eeadb8f4652fa5c2016fe70eb4807203&chksm=fa3f4e73dc9fac061364c210fc9145906ed4a86815edb31a6c1e7f637d00d44674d418a5d579#rd](https://mp.weixin.qq.com/s?__biz=MzU1MzE1OTc5MQ%3D%3D&mid=2247496720&idx=1&sn=eeadb8f4652fa5c2016fe70eb4807203&chksm=fa3f4e73dc9fac061364c210fc9145906ed4a86815edb31a6c1e7f637d00d44674d418a5d579#rd)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-1.jpg)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-2.jpg)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-3.jpg)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-4.jpg)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-5.jpg)
-![](assets/日本出版业AI转型：慢功夫里的快逻辑-6.jpg)
+![](assets/aa8732e0d9e3e.jpg)
+![](assets/a333e053a432c.jpg)
+![](assets/adedc8411f269.jpg)
+![](assets/ad4b8d089ca48.jpg)
+![](assets/af8cdb1e90ab7.jpg)
+![](assets/a06498060a5d3.jpg)
 **日本出版业AI转型：一边守版权，一边用AI，慢功夫里的快逻辑**
 2026年，日本早川书房SF大赛的投稿量从往年400篇暴增至1012篇。
 编辑部发现，有些作品前半段段落之间有空行，后半段突然流畅起来，那是AI生成的痕迹。

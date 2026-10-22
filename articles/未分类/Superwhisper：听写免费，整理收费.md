@@ -13,7 +13,7 @@ notion: "https://www.notion.so/3fefeb00ed7281c3a59fcbee72c80260"
 > 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=MzIxODIzMDM5OQ==&mid=2650351755&idx=1&sn=67e3d486bcca30c787f4e305c690bf04&chksm=8e7192e3ef40fd2eae609c617255dbe02faa200c65b9633d3735a169464cf6a5eddd095638f8#rd](https://mp.weixin.qq.com/s?__biz=MzIxODIzMDM5OQ%3D%3D&mid=2650351755&idx=1&sn=67e3d486bcca30c787f4e305c690bf04&chksm=8e7192e3ef40fd2eae609c617255dbe02faa200c65b9633d3735a169464cf6a5eddd095638f8#rd)
 季度董事会报告交上来，英国旅游企业Holiday Extras的CEO Matthew Pack不再只靠键盘逐段修改。他用Superwhisper口述意见，再把原文和意见结合起来，整理成下一版报告。
 这款工具做的事并不陌生：按住快捷键说话，把文字输入正在使用的应用。但在Pack这里，输入的不只是几句话，而是他对一份报告的判断。按Superwhisper公布的客户案例，产品先由他采用，随后扩展到约30名高管，再向这家905人公司的更多员工推广。[1]
-![](assets/Superwhisper：听写免费，整理收费-1.png)
+![](assets/a9b5374639271.png)
 **Superwhisper的模式设置。来源：官方文档。**
 有意思的是，Superwhisper后来把一部分原本收费的能力放开了：2026年8月26日，Mac上的全部本地Whisper模型向免费用户开放。它没有取消Pro，而是把“听写”和后续的“AI整理”划进了不同档位。[2]
 基础听写免费以后，Pro还剩什么值得买？先看它试图省掉的另一道工序。
@@ -24,7 +24,7 @@ notion: "https://www.notion.so/3fefeb00ed7281c3a59fcbee72c80260"
 | 联系了谁、对什么感兴趣 | Sarah，ACME；对50席方案感兴趣 |
 | 希望谁加入讨论 | 下一步：引荐IT负责人 |
 | 时间安排 | 目标成交时间：季度末 |
-![](assets/Superwhisper：听写免费，整理收费-2.jpg)
+![](assets/a60dc475d12e8.jpg)
 **官网销售场景演示。来源：Superwhisper。**
 销售口述了意向、参与人和时间，页面把它们拆开列出，便于接手的同事扫读。不过，“季度末”被归入了目标成交时间，这个归类实际使用时仍要核对；联系IT负责人也没有因为生成一条记录就自动完成。
 普通听写完成的是识别；这里展示的第二步，是按照任务重新组织文字。官方文档也将两者分开：纯转写模式不做AI处理；消息模式清理口头冗余，邮件模式补齐邮件结构，笔记模式整理要点与行动项。[4]
