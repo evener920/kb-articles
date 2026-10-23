@@ -1,17 +1,17 @@
 ---
 title: "鲁家武  II  书《江城子-人生五十》四首，六尺四屏"
-source: "https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw==&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c262f9ac754cf2f768abcda140993e32c39ecafa03a9fdd67e1661154ea59dcc6b1c4eebeaa4#rd"
+source: "https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw==&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c279647820598e7b1ab2cd4e5b03633304ab428ef524fdf6a1a377e43cb49ad6ece7bf12c557#rd"
 category: "未分类"
 author: "止庸堂"
 date: 2026-05-25
 tags: []
-notion: "https://www.notion.so/3fffeb00ed7281258b1bf1389aed64b2"
+notion: "https://www.notion.so/402feb00ed7281b696b3ca9de639293b"
 ---
 
 # 鲁家武  II  书《江城子-人生五十》四首，六尺四屏
 > 💡 备注属性未写入，可能是备注属性名称或者类型被修改了，建议将字段类型设置为 rich_text，可以在小程序-操作-修改文章数据库页面进行调整
-> 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw==&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c262f9ac754cf2f768abcda140993e32c39ecafa03a9fdd67e1661154ea59dcc6b1c4eebeaa4#rd](https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw%3D%3D&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c262f9ac754cf2f768abcda140993e32c39ecafa03a9fdd67e1661154ea59dcc6b1c4eebeaa4#rd)
-![](assets/鲁家武 II 书《江城子-人生五十》四首，六尺四屏-1.jpg)
+> 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw==&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c279647820598e7b1ab2cd4e5b03633304ab428ef524fdf6a1a377e43cb49ad6ece7bf12c557#rd](https://mp.weixin.qq.com/s?__biz=Mzk0NDc1NTUxNw%3D%3D&mid=2247485480&idx=1&sn=84791b13a9d9f638ba394c587cf669df&chksm=c279647820598e7b1ab2cd4e5b03633304ab428ef524fdf6a1a377e43cb49ad6ece7bf12c557#rd)
+![](assets/402feb00ed7281b6-1.jpg)
 **《江城子·人生五十》其一**
 人生五十尚轻狂，
 借沧浪，洗锋芒。
@@ -56,16 +56,8 @@ notion: "https://www.notion.so/3fffeb00ed7281258b1bf1389aed64b2"
 笑说当年，年少太疏狂。
 而今且把馀生寄，
 茶一盏，卧东江。
-![](assets/鲁家武 II 书《江城子-人生五十》四首，六尺四屏-2.jpg)
+![](assets/402feb00ed7281b6-2.jpg)
 斟老酒醉斜阳（六尺对开）
 **欢迎关注！更多原创！！**
-![](assets/鲁家武 II 书《江城子-人生五十》四首，六尺四屏-3.jpg)
-![](assets/鲁家武 II 书《江城子-人生五十》四首，六尺四屏-4.jpg)
-
-## 摘要
-
-（待补充）
-
-## 我的笔记
-
-（待补充）
+![](assets/402feb00ed7281b6-3.jpg)
+![](assets/402feb00ed7281b6-4.jpg)
