@@ -7,7 +7,7 @@
 // 链接归一化抛 URIError。因此 URL 一律用 ASCII slug（标题清理 + 6位稳定 hash），
 // 展示标题仍取自 frontmatter 的 title，互不影响。配图文件名同样 sanitize，避免 Vite 报错。
 import {
-  cpSync, mkdirSync, readdirSync, readFileSync, writeFileSync, rmSync, statSync,
+  cpSync, mkdirSync, readdirSync, readFileSync, writeFileSync, rmSync, statSync, existsSync,
 } from 'node:fs';
 import { dirname, resolve, join, basename, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -82,15 +82,42 @@ for (const cat of cats) {
     const slug = `${sanitize(origTitle)}-${hash6(origTitle)}`;
     let raw = readFileSync(join(srcCat, f), 'utf8');
 
-    // 该文章对应的配图（源 assets 里以原标题为前缀），sanitize 后落到 dst/assets
+    // 【2026-10-28】引用驱动拷贝：md 里引用了哪些 assets 就拷哪些，改名与引用重写
+    // 共用同一张 renameMap，永不失配。旧逻辑按"文件名以文章标题为前缀"猜归属，
+    // 2026-10-23 资产 ASCII 化后图片名不再以标题开头，匹配整体失效 →
+    // prep 后全部图片引用解析不到，Deploy workflow 每次必红（416 封失败邮件）。
     const renameMap = {};
-    for (const img of srcImgs) {
-      if (!img.startsWith(origTitle)) continue;
-      const ext = extname(img);
-      const tail = img.slice(origTitle.length).replace(ext, '').replace(/^[-\s]*/, '') || '1';
-      const target = `${slug}-${tail}${ext}`;
-      renameMap[img] = target;
-      cpSync(join(srcAssetsDir, img), join(dstAssets, target));
+    const missingRefs = [];
+    const seen = new Set();
+    for (const m of raw.matchAll(/\]\((?:\.\/)?assets\/([^)\s]+)\)/g)) {
+      const name = m[1];
+      if (seen.has(name)) continue;
+      seen.add(name);
+      const src = join(srcAssetsDir, name);
+      if (!existsSync(src)) {
+        // 源头缺图（历史占位引用的残余）：落到 1x1 占位图，保证构建永不炸
+        missingRefs.push(name);
+        continue;
+      }
+      const ext = extname(name) || '.png';
+      const stem = name.slice(0, name.length - ext.length);
+      let target = `${slug}-${sanitize(stem) || 'img'}${ext.toLowerCase()}`;
+      if (Object.values(renameMap).includes(target)) {
+        target = `${slug}-${hash6(name)}${ext.toLowerCase()}`; // 兜底防撞名
+      }
+      renameMap[name] = target;
+      cpSync(src, join(dstAssets, target));
+    }
+    const MISSING_PNG = Buffer.from(
+      'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==',
+      'base64',
+    );
+    for (const name of missingRefs) {
+      const ext = (extname(name) || '.png').toLowerCase();
+      const target = `${slug}-missing-${hash6(name)}${ext}`;
+      writeFileSync(join(dstAssets, target), MISSING_PNG);
+      renameMap[name] = target;
+      console.warn(`[prep] missing asset for ${origTitle}: ${name} -> placeholder ${target}`);
     }
 
     // 重写正文里的配图引用：renameMap 的 key 就是 md 中引用的图片文件名（精确匹配，
