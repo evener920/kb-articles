@@ -105,7 +105,7 @@ reportlab 的 Paragraph 有个臭名昭著的行为：**它会吞掉连续空白
 市面上没有任何一个 MD→PDF 工具同时提供这些。Pandoc 通过 LaTeX 模板可以实现部分功能——但你得会写 LaTeX 模板。我们用 **20+ 个 CLI 参数**把这些全部暴露为零代码配置：
 ![](assets/407feb00ed728153-9.png)
 一行命令，136 页，7.9 MB，出版级 PDF。
-![](assets/407feb00ed728153-10.jpg)
+![](assets/407feb00ed728153-11.png)
 全链路文档结构与10种主题风格
 #### 4.4 智能表格列宽
 Markdown 表格到 PDF 的列宽分配是个经典难题。等宽分配浪费空间，浏览器引擎的自动布局在 reportlab 里不存在。
@@ -117,15 +117,15 @@ Markdown 表格到 PDF 的列宽分配是个经典难题。等宽分配浪费空
 效果：窄列不会被挤成一条线，宽列不会独占整页。
 #### 4.5 主题系统——10 种设计风格
 不是简单换配色。每个主题都有独立的**版式语言**：
-![](assets/407feb00ed728153-11.png)
+![](assets/407feb00ed728153-12.png)
 从学术论文到期刊风格，从中式正式到极简水墨，一个 `--theme` 参数切换。还支持 `--theme-file mytheme.json` 完全自定义。
 ### 五、对比：12 个竞品，逐一过招
 我在 Anthropic Skills、SkillsMP.com、LobeHub、OpenClaw（13,729 skills）、Microsoft Skills（132 skills）、FastMCP.me 六大平台做了全面扫描。找到了 12 个 MD→PDF 相关的竞品。
 核心结论放一张表：
-![](assets/407feb00ed728153-12.png)
+![](assets/407feb00ed728153-13.jpg)
 **12 个竞品里，没有一个同时具备：Markdown 原生全功能排版 + CJK 专项支持 + 全链路文档结构 + 零重依赖。**
 我们是这个交叉点上唯一的方案。
-![](assets/407feb00ed728153-13.jpg)
+
 竞品全景：12个方案中唯一的四维交叉点
 ### 六、为什么不用 MiniMax 的 Skill？
 同期 MiniMax 开源的 Office Skills（8.5k stars）也有 PDF 模块，做得很好。两个项目的设计侧重不同：
