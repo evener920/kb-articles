@@ -1,16 +1,16 @@
 ---
 title: "我AI做了一个能看、能听的古诗网站"
-source: "https://mp.weixin.qq.com/s?__biz=MzY5OTI5MDc0Nw==&mid=2247484486&idx=1&sn=2a6b4b7f0ede4148d84da2b24965edd5&chksm=f5c149d9cb165ef730ae3fa4d8957938e7886a90c2b2293ba27b9847ebee4967caec742d4bee#rd"
+source: "https://mp.weixin.qq.com/s/KmXg7pzPQhBgkvaTwvS7-Q"
 category: "未分类"
 author: "思维热布丁"
 date: 2026-10-29
 tags: []
-notion: "https://www.notion.so/40efeb00ed72816a8250d0bfb2e44786"
+notion: "https://www.notion.so/40efeb00ed728182879ddc34b1197855"
 ---
 
 # 我AI做了一个能看、能听的古诗网站
 > 💡 备注属性未写入，可能是备注属性名称或者类型被修改了，建议将字段类型设置为 rich_text，可以在小程序-操作-修改文章数据库页面进行调整
-> 💡 原文链接:[https://mp.weixin.qq.com/s?__biz=MzY5OTI5MDc0Nw==&mid=2247484486&idx=1&sn=2a6b4b7f0ede4148d84da2b24965edd5&chksm=f5c149d9cb165ef730ae3fa4d8957938e7886a90c2b2293ba27b9847ebee4967caec742d4bee#rd](https://mp.weixin.qq.com/s?__biz=MzY5OTI5MDc0Nw%3D%3D&mid=2247484486&idx=1&sn=2a6b4b7f0ede4148d84da2b24965edd5&chksm=f5c149d9cb165ef730ae3fa4d8957938e7886a90c2b2293ba27b9847ebee4967caec742d4bee#rd)
+> 原文链接:[https://mp.weixin.qq.com/s/KmXg7pzPQhBgkvaTwvS7-Q](https://mp.weixin.qq.com/s/KmXg7pzPQhBgkvaTwvS7-Q)
 **AI 生活化 · 家长向思维热布丁**
 最近家里幼儿园小朋友问总是我：「粒粒皆辛苦」是什么意思？
 诗他会背，意思却不懂。
@@ -34,7 +34,7 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 • 意思要讲得明白，适龄
 • 最好还能听，跟得上
 • 最好还有一张画，帮他把诗「看见」
-![](assets/40efeb00ed72816a-2.jpg)
+![](assets/40efeb00ed728182-1.jpg)
 ▲ 《静夜思》桌面页：横排带拼音，旁边是水墨画
 · · ·
 **二、打开「必背诗笺」，你会看到什么**
@@ -51,9 +51,9 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 大多数诗配了 5 个朗读版本：童声跟读、跟读、朗读、朗读解析、朗读赏析。可以连播。孩子听一句、看一句，比家长干讲省力。
 **手机也能用。**
 竖屏打开，字和图都会跟着缩，方便睡前或路上随手点开。
-![](assets/40efeb00ed72816a-4.jpg)
+![](assets/40efeb00ed728182-2.jpg)
 ▲ 手机宽度打开《静夜思》
-
+![](assets/40efeb00ed728182-3.jpg)
 ▲ 「必背诗笺」首页：按年级筛、可搜索
 · · ·
 **三、我刻意留下的几条产品决定**
@@ -69,7 +69,7 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 **5. 免费。**
 给小学生和家长用。家长可以留邮箱，免费领可打印 PDF；当前页面也会给直接下载链接兜底。
 这些决定看起来平常。但正是这些「不做清单」，让站没有胖成资料堆。
-
+![](assets/40efeb00ed728182-4.jpg)
 ▲ 全站水墨设色画合集
 · · ·
 **四、你可以这样用**
