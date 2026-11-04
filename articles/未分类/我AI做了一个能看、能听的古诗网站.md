@@ -34,7 +34,7 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 • 意思要讲得明白，适龄
 • 最好还能听，跟得上
 • 最好还有一张画，帮他把诗「看见」
-![](assets/40efeb00ed72816a-1.jpg)
+![](assets/40efeb00ed72816a-2.jpg)
 ▲ 《静夜思》桌面页：横排带拼音，旁边是水墨画
 · · ·
 **二、打开「必背诗笺」，你会看到什么**
@@ -51,9 +51,9 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 大多数诗配了 5 个朗读版本：童声跟读、跟读、朗读、朗读解析、朗读赏析。可以连播。孩子听一句、看一句，比家长干讲省力。
 **手机也能用。**
 竖屏打开，字和图都会跟着缩，方便睡前或路上随手点开。
-![](assets/40efeb00ed72816a-2.jpg)
+![](assets/40efeb00ed72816a-4.jpg)
 ▲ 手机宽度打开《静夜思》
-![](assets/40efeb00ed72816a-3.jpg)
+
 ▲ 「必背诗笺」首页：按年级筛、可搜索
 · · ·
 **三、我刻意留下的几条产品决定**
@@ -69,7 +69,7 @@ https://ancient-chinese-poems-for-primary-school.iamgengxiaowen.workers.dev/?p=j
 **5. 免费。**
 给小学生和家长用。家长可以留邮箱，免费领可打印 PDF；当前页面也会给直接下载链接兜底。
 这些决定看起来平常。但正是这些「不做清单」，让站没有胖成资料堆。
-![](assets/40efeb00ed72816a-4.jpg)
+
 ▲ 全站水墨设色画合集
 · · ·
 **四、你可以这样用**
