@@ -37,7 +37,7 @@ VoiceKey支持Windows、macOS、Android 语音输入。桌面端按住或点按�
 给予麦克风和无障碍权限后即可使用
 ![](assets/413feb00ed728147-8.jpg)
 默认长按音量下键或点击悬浮球说话激活识别
-
+![](assets/413feb00ed728147-9.png)
 软件在Github免费开源
 —End—
 喜欢就点一下推荐呗
