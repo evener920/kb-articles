@@ -51,10 +51,10 @@ notion: "https://www.notion.so/415feb00ed7281e6af02dee161877ae1"
 【EchoShelf - 有声书播放器】一款有声书应用，提供章节浏览、倍速、快进快退、定时关闭等，软件本身不提供内容，需连接你自己的服务器。目前软件的内购正在限时免费，获取时注意确认价格，手慢无！
 ![](assets/415feb00ed7281e6-10.jpg)
 ![](assets/415feb00ed7281e6-11.jpg)
-![](assets/415feb00ed7281e6-12.png)
+![](assets/415feb00ed7281e6-13.png)
 长按二维码
 识别下载
-![](assets/415feb00ed7281e6-13.png)
+![](assets/415feb00ed7281e6-14.jpg)
 **《GridMe》**
 生活/58元→**免费**
 
@@ -64,12 +64,12 @@ notion: "https://www.notion.so/415feb00ed7281e6af02dee161877ae1"
 **介绍：**
 
 【GridMe：人生格子日历，一句话日记】一款把人生可视化成网格的极简日记工具，用周、月、年、一生四个维度看时间，每天最多写140字记录当下。目前软件正在内购限免，获取时注意确认价格，手慢无！
-![](assets/415feb00ed7281e6-14.jpg)
 ![](assets/415feb00ed7281e6-15.jpg)
 ![](assets/415feb00ed7281e6-16.png)
+![](assets/415feb00ed7281e6-17.png)
 长按二维码
 识别下载
-![](assets/415feb00ed7281e6-17.png)
+![](assets/415feb00ed7281e6-18.jpg)
 **《上学易》**
 教育/8元→**免费**
 
@@ -79,9 +79,9 @@ notion: "https://www.notion.so/415feb00ed7281e6af02dee161877ae1"
 **介绍：**
 
 【上学易-小学信息平台,幼升小升学必备】一款全国小学综合信息平台，提供小学学区划分查询、小学地图、教育局与招生入学及幼升小报名入口，支持学校评论点赞和添加修改学校信息。
-![](assets/415feb00ed7281e6-18.jpg)
 ![](assets/415feb00ed7281e6-19.jpg)
 ![](assets/415feb00ed7281e6-20.png)
+
 长按二维码
 识别下载
 
