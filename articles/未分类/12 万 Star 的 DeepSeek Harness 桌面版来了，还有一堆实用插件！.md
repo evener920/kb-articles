@@ -53,16 +53,16 @@ Preset 是 DeepSeek Harness 里非常重要的概念，因为它一切皆插件�
 DSH Desktop 顺势推出了 **Preset 广场**，打开 www.dshdesktop.com/preset/ ，你可以在这里直接挑选别人配好的“工作配方”。
 ![](assets/3befeb00ed7281f5-9.png)
 打开一个 Preset 后，在详情页直接点击“复制安装请求”，然后到 DSH 客户端发送就可以：
-![](assets/3befeb00ed7281f5-10.png)
-然后等待安装完成就可以：
 ![](assets/3befeb00ed7281f5-11.png)
+然后等待安装完成就可以：
+![](assets/3befeb00ed7281f5-12.png)
 Chris 理解 Preset 跟 Skill 的区别是**更底层、能改的东西更多**，系统提示词、工具、Skill、上下文策略、子 Agent 编排逻辑……因为一切皆插件，跟 Agent 相关的一切都能配。
 #### 3. 模型可以自己选
 首次配置时，你可以自由选择模型服务商，填入 API Key 就行。
 当前内置了 **DeepSeek、OpenAI、Anthropic、Google Gemini**，还有 xAI、Kimi、MiniMax、智谱 GLM 等。如果平时通过 **OpenRouter** 用模型，这里也能直接接入。
-![](assets/3befeb00ed7281f5-12.png)
-另外，**软件会自动列出该服务商的可用模型，不需要你手工填写模型 ID**。后面想接其他模型，也可以在设置里继续添加。
 ![](assets/3befeb00ed7281f5-13.png)
+另外，**软件会自动列出该服务商的可用模型，不需要你手工填写模型 ID**。后面想接其他模型，也可以在设置里继续添加。
+![](assets/3befeb00ed7281f5-14.png)
 这一点比官方 Web UI 的默认体验好不少，也是 DSH Desktop 的重点打磨方向。
 #### 4. 调好的 Agent 可以打包带走
 你可以把 Agent 理解成一个按自己需求调好的 AI 助手，装了几个 Skill 和插件，写好了固定的工作要求。
@@ -80,21 +80,21 @@ DSH 装完其实是个“毛坯房”，一切皆插件的玩法就是：需要�
 #### dsh-market
 仓库地址 github.com/dsh-market/dsh-market
 这是 DeepSeek Harness 插件市场，可浏览搜索社区 900+ 插件，截图预览、一键安装/更新/启停，多数插件免重启即时生效。
-![](assets/3befeb00ed7281f5-14.png)
-安装完成，就可以在设置弹框中看到“插件市场”，需要什么插件直接点击安装即可，太方便了：
 ![](assets/3befeb00ed7281f5-15.png)
+安装完成，就可以在设置弹框中看到“插件市场”，需要什么插件直接点击安装即可，太方便了：
+![](assets/3befeb00ed7281f5-16.png)
 #### 识图插件
 给 DSH 装上眼睛，官方暂时不支持识图，社区已经有好几个方案，比如 github.com/liustack/modlens 、github.com/Anionex/dsh-vision-toolkit
-![](assets/3befeb00ed7281f5-16.png)
 ![](assets/3befeb00ed7281f5-17.png)
+![](assets/3befeb00ed7281f5-18.png)
 #### dsh-TUI
 仓库地址：github.com/ccch1mneyyy/dsh-TUI
 类 Claude Code 风格的终端界面，补全官方无终端 TUI 的痛点，还被 DSH 官方公众号收录过
-![](assets/3befeb00ed7281f5-18.png)
 ![](assets/3befeb00ed7281f5-19.png)
+![](assets/3befeb00ed7281f5-20.png)
 #### 主题换肤
 gallery.dsh-market.com 项目里面，内置很多套不错的皮肤可以选择，效果如下：
-![](assets/3befeb00ed7281f5-20.png)
+
 #### 查看余额
 仓库地址：github.com/crazywoola/dsh-balance
 DeepSeek Harness 插件，用于查询 API 余额和当前可用模型。API Key 仅由本机 Host 使用，不会发送到浏览器。
