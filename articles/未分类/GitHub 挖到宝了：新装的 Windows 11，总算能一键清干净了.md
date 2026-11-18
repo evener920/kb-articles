@@ -14,11 +14,11 @@ notion: "https://www.notion.so/41cfeb00ed7281259c24facb0a6cda7b"
 GitHub 项目推荐
 新电脑装好 Windows 11，开始菜单塞满用不上的应用，设置里全是推荐内容，右下角还老弹 Copilot 的招呼。
 今天分享 **Win11Debloat**，一个免安装的 PowerShell 脚本：**把该关的一次关干净，该删的一次删掉。**
-![](assets/41cfeb00ed728125-2.png)
+![](assets/41cfeb00ed728125-1.png)
 官方界面素材 · 编辑编排
 ### 01　界面就是一张清单
 打开后是一页勾选清单：隐私、系统、更新、外观、任务栏分组摆开，鼠标悬停还有说明，改哪几项全由你决定。
-![](assets/41cfeb00ed728125-3.png)
+![](assets/41cfeb00ed728125-2.png)
 官方界面局部 · 编辑编排
 ### 02　推荐内容和 AI，一并关掉
 遥测、诊断数据、活动历史、定向广告、定位服务可以一次关停；开始菜单、锁屏、搜索框里的推广也能清掉。Copilot、Recall、Click to Do，连 Edge、Chrome、画图、记事本里的 AI 功能也能关掉。
