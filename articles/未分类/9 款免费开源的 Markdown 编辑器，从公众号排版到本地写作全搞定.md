@@ -40,7 +40,7 @@ macOS 和 Linux 用户的本地优先选择。文档直接存在磁盘上，自�
 安装包下载：https://durushi.com/p/IKNKCRXG.html
 ### 想要有AI的
 1、mkeditor
-![](assets/424feb00ed7281fa-5.png)
+
 AI 驱动的免费编辑器。AI 助手可以连接 Anthropic、OpenAI 或本地 Ollama，还带工具目录，能读、编辑和创建文件，不只是聊天补全。代码高亮、LaTeX 数学公式、实时预览、导出这些基本功也都齐。有 Windows、Linux 桌面版和浏览器版可用。
 安装包下载：https://durushi.com/p/LOFNKYFK.html
 2、markdown-online-editor
