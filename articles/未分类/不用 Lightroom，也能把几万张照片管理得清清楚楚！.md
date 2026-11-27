@@ -129,3 +129,30 @@ Alt + Delete：标记为“拒绝”（Mac 用 Option + Delete）
 Bridge 也有短处
 说完好处，也说说它不如 Lightroom 的地方：
 照片特别多时，搜索会慢。Bridge 没有目录数据库，跨很多文件夹搜索时要现找，第一次打开大文件夹也要等它生成缩略图
+硬盘没插上就看不到。Lightroom 即使拔掉硬盘也能浏览预览图，Bridge 不行
+没有手机版。想在手机上看和修，还是得用 Lightroom
+所以我的建议是：照片在几万张以内、主要在一台电脑上工作，Bridge 完全够用。照片十几万张、经常要跨年份找图，再考虑 Lightroom Classic。
+而且，这篇讲的文件夹规则、命名规则和星级标准，换到任何软件都能用。方法是你的，软件只是工具。
+···
+最后
+整理照片这件事，看起来和摄影无关，其实关系很大。
+一张找不到的照片，和没拍过没有什么区别。管理照片不是整理癖，而是让你拍过的东西，真的能被再次看见。
+不必一次把过去十年的照片都理完。从下一次拍摄开始用这套方法，老照片有空时一年一年慢慢补。
+身边有硬盘里一团乱的朋友，可以把这篇发给他。
+留言聊聊：你的照片文件夹是怎么命名的？有没有更好的办法？
+···
+后期和工具系列会持续更新，关注海外影格，不错过下一篇。
+筛完片之后怎么调色？可以接着读[《Camera Raw 系列 01｜基本面板 6 个滑块》](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247487257&idx=1&sn=ea7375fb9179834f9e13222c416afef8&scene=21#wechat_redirect)。
+参考：Adobe Bridge 版本说明，目前最新为 2026 年 7 月的 16.0.6 版
+— 完 —
+谢谢你读到这里。觉得有用的话，点个「 👍 」再走。
+FILM
+**让每一篇文章都成为可以被复用的经验**
+影藏万象 · 格见千山
+[PS其实没那么难，我当初就是靠这几招入门的](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247486951&idx=1&sn=8b65a1016e972063b4eca06d3c3b6d7c&scene=21#wechat_redirect)
+[手机拍的照片，怎么用PS修出胶片感？](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247487069&idx=1&sn=fac59dc00717788b7feb2f7b0b742d0b&scene=21#wechat_redirect)
+[从灰片到电影色：照片RAW 转 LOG 全流程](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247486858&idx=1&sn=53dec7b3a94edfc670e9ccedb5cd5ef5&scene=21#wechat_redirect)
+[拍的照片颜色总不对？别急换显示器，先看看色彩管理吧](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247486011&idx=1&sn=60e0c0f574ca6f8b84073c20a8ddf03d&scene=21#wechat_redirect)
+[Camera Raw 滑块不用全懂，照这 7 步走完全流程](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247487147&idx=1&sn=b203d85d442e25f1e4f5849df66353d8&scene=21#wechat_redirect)
+[正版 Photoshop 没有安装包，别再找了，看这里！](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247487179&idx=1&sn=aa40c8b0a3949a02238f8cf2a32df5e2&scene=21#wechat_redirect)
+[《Camera Raw 系列 01｜基本面板 6 个滑块》](https://mp.weixin.qq.com/s?__biz=MzI4NzU0Mjc1MA%3D%3D&mid=2247487257&idx=1&sn=ea7375fb9179834f9e13222c416afef8&scene=21#wechat_redirect)
